@@ -5,7 +5,7 @@ from rdkit import Chem
 # from rdkit.Chem.Draw import IpythonConsole
 # from rdkit.Chem import Draw
 import numpy as np
-from rdkit.Chem import MACCSkeys, Draw
+# from rdkit.Chem import MACCSkeys, Draw
 from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.callbacks import ModelCheckpoint
