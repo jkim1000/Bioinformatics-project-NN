@@ -66,7 +66,7 @@ def draw_model(user_input):
     return mol
 
 # Logo image
-image = Image.open('logo.png')
+image = Image.open(https://github.com/jkim1000/Bioinformatics-project-NN/bioactivity-prediction-app/logo.png)
 
 st.image(image, use_column_width=True)
 
