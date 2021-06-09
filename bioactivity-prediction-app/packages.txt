@@ -1,1 +1,1 @@
-rdkit-dev
+rdkit2021.03.2-dev
