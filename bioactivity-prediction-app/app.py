@@ -13,7 +13,7 @@ import subprocess
 import os
 import base64
 import pickle
--c conda-forge rdkit
+conda-forge rdkit
 # Molecular descriptor calculator
 def desc_calc(smile):
     # construct the molecule from smile
