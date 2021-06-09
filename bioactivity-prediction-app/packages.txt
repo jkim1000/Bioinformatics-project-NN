@@ -1,2 +1,2 @@
-!sudo apt-get install libxrender1
-!sudo apt-get install -y python-rdkit
+sudo apt-get install libxrender1
+sudo apt-get install -y python-rdkit
