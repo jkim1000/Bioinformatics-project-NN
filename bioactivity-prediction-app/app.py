@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 from rdkit import Chem
-# from rdkit.Chem.Draw import IpythonConsole
+from rdkit.Chem.Draw import IpythonConsole
 from rdkit.Chem import Draw
 import numpy as np
 from rdkit.Chem import MACCSkeys, Draw
