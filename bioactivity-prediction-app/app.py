@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
-from rdkit import Chem
+# from rdkit import Chem
 # from rdkit.Chem.Draw import IpythonConsole
 # from rdkit.Chem import Draw
 # from rdkit.Chem import MACCSkeys, Draw
@@ -19,7 +19,7 @@ def desc_calc(smile):
     # construct the molecule from smile
     mole = Chem.MolFromSmiles(smile)
     # forming MACC fingerprint from the molecue
-    macc = Chem.MACCSkeys.GenMACCSKeys(mole)
+    macc = MACCSkeys.GenMACCSKeys(mole)
     # convert MACC fp to array
     bitlist = np.asarray(macc)
     return(bitlist)
