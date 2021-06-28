@@ -19,7 +19,7 @@ def desc_calc(smile):
     # construct the molecule from smile
     mole = Chem.MolFromSmiles(smile)
     # forming MACC fingerprint from the molecue
-    macc = MACCSkeys.GenMACCSKeys(mole)
+    macc = Chem.MACCSkeys.GenMACCSKeys(mole)
     # convert MACC fp to array
     bitlist = np.asarray(macc)
     return(bitlist)
