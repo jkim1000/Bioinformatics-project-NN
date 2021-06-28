@@ -2,9 +2,9 @@ base58==2.1.0
 keras==2.4.3
 numpy>=1.19.1
 pandas >= 1.0.5
-rdkit-pypi==2021.3.2.3
+
 streamlit>=0.82.0
 tensorflow>=2.4.1
-rdkit-pypi >= 10.9
+
 
 
