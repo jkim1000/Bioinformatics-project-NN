@@ -3,8 +3,8 @@ import pandas as pd
 from PIL import Image
 from rdkit import Chem
 # from rdkit.Chem.Draw import IpythonConsole
-# from rdkit.Chem import Draw
-# from rdkit.Chem import MACCSkeys, Draw
+from rdkit.Chem import Draw
+from rdkit.Chem import MACCSkeys, Draw
 import numpy as np
 from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import Dense, Dropout
