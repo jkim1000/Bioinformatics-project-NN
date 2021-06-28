@@ -6,9 +6,9 @@ from rdkit import Chem
 from rdkit.Chem import Draw
 from rdkit.Chem import MACCSkeys, Draw
 import numpy as np
-# from tensorflow.keras.models import Sequential, load_model
-# from tensorflow.keras.layers import Dense, Dropout
-# from tensorflow.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.models import Sequential, load_model
+from tensorflow.keras.layers import Dense, Dropout
+from tensorflow.keras.callbacks import ModelCheckpoint
 import subprocess
 import os
 import base64
