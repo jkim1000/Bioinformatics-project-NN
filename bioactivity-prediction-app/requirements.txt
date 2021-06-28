@@ -5,6 +5,6 @@ pandas >= 1.0.5
 rdkit-pypi >= 10.9 
 streamlit>=0.82.0
 tensorflow>=2.4.1
-rdkit-pypi==2021.3.2.3 
+
 
 
