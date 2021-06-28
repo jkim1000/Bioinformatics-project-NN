@@ -66,9 +66,9 @@ def draw_model(user_input):
     return mol
 
 # Logo image
-image = Image.open('bioactivity-prediction-app/logo.png')
+# image = Image.open('bioactivity-prediction-app/logo.png')
 
-st.image(image, use_column_width=True)
+# st.image(image, use_column_width=True)
 
 # Page title
 st.markdown("""
