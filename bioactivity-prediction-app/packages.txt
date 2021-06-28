@@ -1,3 +1,1 @@
-rdkit-dev
-librdkit-dev
-libxrender-dev
+
