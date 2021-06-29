@@ -93,9 +93,9 @@ def draw_model(user_input):
     return mol
 
 # Logo image
-# image = Image.open('/home/ubuntu/Bioinformatics-project-NN/bioactivity-prediction-app/logo.png')
+image = Image.open('/home/ubuntu/Bioinformatics-project-NN/bioactivity-prediction-app/drug_discovery.png')
 
-image = Image.open('/Users/tk/Desktop/Bioinformatics-project-NN-main/bioactivity-prediction-app/drug_discovery.png')
+
 st.image(image, use_column_width=True)
 
 # Page title
