@@ -82,10 +82,10 @@ It is highly expressed in many cancer cells, thereby making it a target of inter
 """)
 
 # Sidebar
-with st.sidebar.header('1. Upload CSV data'):
+with st.sidebar.header('1. Upload SMILES data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input file", type=['csv'])
     st.sidebar.markdown("""
-[Example input file](https://raw.githubusercontent.com/dataprofessor/bioactivity-prediction-app/main/example_acetylcholinesterase.txt)
+[Example input file](https://https://github.com/jkim1000/Bioinformatics-project-NN/blob/main/bioactivity-prediction-app/EGFR_test_set.csv)
 """)
 
 if st.sidebar.button('Predict'):
